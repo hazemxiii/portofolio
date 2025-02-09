@@ -18,7 +18,7 @@ export default function ProjectsSection(){
         tags = {["File management", "SharedPreferences", "Provider", "Encryption"]}
         ></ProjectCard>
 
-<ProjectCard title="TeamHive Safe" brief="Team or Class Management" 
+<ProjectCard title="TeamHive" brief="Team or Class Management" 
         tags = {["SharedPreferences", "Provider","Firebase","Third-party API"]}
         ></ProjectCard>
        
