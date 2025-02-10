@@ -31,7 +31,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/project-details"
+            path="/project-details/:id"
             element={<ProjectDetails></ProjectDetails>}
           ></Route>
         </Routes>

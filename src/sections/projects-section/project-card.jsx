@@ -31,6 +31,6 @@ export default function ProjectCard({ project, id, title, img, brief, tags }) {
   );
 
   function showDetails() {
-    nav(`/project-details?id=1`);
+    nav(`/project-details/${project.id}`);
   }
 }

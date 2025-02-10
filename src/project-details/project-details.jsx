@@ -1,11 +1,11 @@
 import Section from "../sections/section";
-// import data from "./app-data";
 import Project from "./app-data";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import FeaturesSection from "./features-section";
+import { useParams } from "react-router-dom";
 
 export default function ProjectDetails() {
-  const id = 1;
+  const { id } = useParams();
 
   return (
     <>
