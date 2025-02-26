@@ -50,18 +50,21 @@ new Project(
   "1",
   "Moazzin",
   "Muslim companion",
-  "The Muslim Prayer App is a powerful and user-friendly tool designed to help Muslims stay connected to their faith throughout the day. Whether you're at home, work, or traveling, this app ensures you never miss a prayer and have access to essential Islamic resources.",
+  "Moazzin is a powerful and user-friendly tool designed to help Muslims stay connected to their faith throughout the day. Whether you're at home, work, or traveling, this app ensures you never miss a prayer and have access to essential Islamic resources.",
   [
     new Feature(
       "Prayer Time",
       "Never miss a prayer - accurate timings at your fingertips.",
-
+      <IoTimer />
+    ),
+    new Feature(
+      "Notifications",
+      "Always be ready before it's adhan time with background notification.",
       <IoTimer />
     ),
     new Feature(
       "Tasbih Counter",
       "Effortless dhikr, one tap at a time.",
-
       <AiOutlineNumber />
     ),
     new Feature(
