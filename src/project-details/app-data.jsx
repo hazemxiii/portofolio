@@ -50,7 +50,7 @@ class Feature {
   }
 
   getImageSrc() {
-    return `/src/assets/images/screenshots/${this.appName}/${this.title}.png`;
+    return `/screenshots/${this.appName}/${this.title}.png`;
   }
 }
 
