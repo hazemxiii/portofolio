@@ -16,20 +16,21 @@ import { MdOutlineQuiz } from "react-icons/md";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { IoMdSync } from "react-icons/io";
 
-const images = import.meta.glob("/src/assets/images/screenshots/*/*.png", {
-  eager: true,
-});
+// const images = import.meta.glob("/src/assets/images/screenshots/*/*.png", {
+//   eager: true,
+// });
 
-const imageUrls = Object.values(images).map((img) => {
-  return img.default || img;
-});
+// const imageUrls = Object.values(images).map((img) => {
+//   console.log(img.default);
+//   return img.default || img;
+// });
 export default class Project {
   static data = {};
   constructor(id, title, brief, description, features, tags) {
     this.id = id;
     this.title = title;
     this.brief = brief;
-    this.img = `/src/assets/images/screenshots/${title}/icon.png`;
+    this.img = `/screenshots/${title}/icon.png`;
     this.description = description;
     for (let i = 0; i < features.length; i++) {
       features[i].appName = title;
