@@ -16,6 +16,13 @@ import { MdOutlineQuiz } from "react-icons/md";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { IoMdSync } from "react-icons/io";
 
+const images = import.meta.glob("/src/assets/images/screenshots/*/*.png", {
+  eager: true,
+});
+
+const imageUrls = Object.values(images).map((img) => {
+  return img.default || img;
+});
 export default class Project {
   static data = {};
   constructor(id, title, brief, description, features, tags) {
@@ -197,7 +204,6 @@ new Project(
     new Feature(
       "Authentication System",
       "Securely sign in and protect your account!",
-
       <RiAccountCircle2Line />
     ),
 
