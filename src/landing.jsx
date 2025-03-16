@@ -3,7 +3,9 @@ export default function Landing() {
     <div className="landing-container">
       <h1>Flutter Developer</h1>
       <p>Crafting beautiful cross-platform mobile experiences</p>
-      <a href="#projects">View My Work</a>
+      <a href="CV.pdf" download={true}>
+        Download My CV
+      </a>
     </div>
   );
 }

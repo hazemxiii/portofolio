@@ -21,10 +21,10 @@ export default function ProjectCard({ project, id, title, img, brief, tags }) {
           <div className="details" onClick={showDetails}>
             Show Details
           </div>
-          <div className="code">
+          <a href={project.gitHubLink} target="_blank" className="code">
             <PiGithubLogoFill />
             Source Code
-          </div>
+          </a>
         </div>
       </div>
     </div>
