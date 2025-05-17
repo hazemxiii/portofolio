@@ -55,5 +55,8 @@ new Project(
   features,
   otherFeatures,
   tags,
-  { android: "test.com", windows: "hi" }
+  { android: "test.com", windows: "hi" },
+  {
+    "A major update is coming soon": "var(--light-blue)",
+  }
 );

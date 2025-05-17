@@ -339,6 +339,12 @@
   padding: 40px 10px;
 }
 
+#app-landing .note {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 #app-landing .content {
   display: flex;
   flex-direction: column;

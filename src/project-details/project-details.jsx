@@ -9,7 +9,6 @@ import OtherFeaturesSection from "./other-features-section";
 
 export default function ProjectDetails() {
   const { id } = useParams();
-
   return (
     <>
       <Section
@@ -18,6 +17,14 @@ export default function ProjectDetails() {
           <div className="content">
             <h1>{Project.data[id].title}</h1>
             <p>{Project.data[id].description}</p>
+            {Project.data[id].note && (
+              <div
+                className="note"
+                style={{ color: Object.values(Project.data[id].note)[0] }}
+              >
+                {Object.keys(Project.data[id].note)[0]}
+              </div>
+            )}
             <ul className="platforms">
               {Object.keys(Project.data[id].platforms).map((platformName) => {
                 return (

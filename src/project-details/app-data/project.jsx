@@ -1,5 +1,4 @@
 import "./feature";
-
 export default class Project {
   static data = {};
   constructor(
@@ -11,7 +10,8 @@ export default class Project {
     features,
     otherFeatures,
     tags,
-    platforms
+    platforms,
+    note
   ) {
     this.id = id;
     this.title = title;
@@ -26,6 +26,7 @@ export default class Project {
     this.features = features;
     this.tags = tags;
     this.platforms = platforms;
+    this.note = note;
     Project.data[id] = this;
   }
 }

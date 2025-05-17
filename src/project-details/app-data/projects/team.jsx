@@ -51,5 +51,6 @@ new Project(
   features,
   [],
   ["SharedPreferences", "Provider", "Firebase", "Third-party API"],
-  { web: "www.google.com" }
+  { web: "www.google.com" },
+  { "The app is not intended for public use": "red" }
 );
