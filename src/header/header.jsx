@@ -8,7 +8,7 @@ export default function Header() {
     <>
       <div className="header-container">
         <div className="logo">
-          <span>Hz</span>
+          <span>HM</span>
         </div>
         <ul className={`menu ${isHidden ? "hidden" : ""}`}>
           <MenuItem name="about"></MenuItem>
