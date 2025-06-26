@@ -44,7 +44,7 @@ let features = [
 
 ];
 
-let otherFeatures = ["Import/Export data as a file"];
+let otherFeatures = [];
 
 let tags = ["SharedPreferences", "Provider", "Encryption","Caching"];
 
