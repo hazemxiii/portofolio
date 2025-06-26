@@ -9,12 +9,13 @@ import EducationSection from "./sections/education-section.jsx";
 import ContactSection from "./sections/contact-section.jsx";
 import Footer from "./footer.jsx";
 import ProjectDetails from "./project-details/project-details.jsx";
-
+import ScrollToTop from "./scroll-to-top.jsx";
 function App() {
   return (
     <>
       {" "}
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route
             path="/"

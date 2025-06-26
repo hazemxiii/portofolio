@@ -48,7 +48,7 @@ let tags = [
 ];
 
 new Project(
-  "2",
+  "4",
   "QuoteWidget",
   "Displays user text on a homescreen widget",
   "Turn your home screen into a source of daily motivation! With QuoteWidget, you can add your own quotes, affirmations, or reminders and display them beautifully on a customizable widget. Stay inspired every time you unlock your phone!",

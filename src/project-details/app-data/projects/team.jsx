@@ -43,7 +43,7 @@ let features = [
 ];
 
 new Project(
-  "4",
+  "3",
   "TeamHive",
   "Team or Class Management",
   "Stay connected and productive with secure authentication, team collaboration, quizzes, tasks, and real-time chat—all in one place. Simplify teamwork, boost efficiency!",

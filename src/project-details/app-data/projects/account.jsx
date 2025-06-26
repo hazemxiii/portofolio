@@ -9,54 +9,54 @@ import Project from "../project";
 
 let features = [
   new Feature(
-    "Saving Accounts",
+    "Securely Save Your Data",
     "Securely store all your account details in one place!",
 
     <RiAccountCircle2Line />
   ),
 
   new Feature(
-    "Encryption & Password Protection",
-    "Keep your data safe with strong encryption and password security!",
-
-    <IoKeyOutline />
-  ),
-
-  new Feature(
-    "Easy Copy",
-    "Quickly copy your account details with a single tap!",
+    "Quick Access to Main Attributes",
+    "Quickly access your account details on main screen",
 
     <FaRegCopy />
   ),
 
   new Feature(
-    "Sync your data",
-    "Easily send & receive data from your devices",
-    <IoMdSync />
-  ),
-
-  new Feature(
-    "Password Generator",
+    "Generate Random Password",
     "Generate strong and secure passwords instantly!",
     <RiLockPasswordLine />
   ),
+
+  new Feature(
+    "Biometric Authentication",
+    "Keep your data safe with biometric authentication!",
+
+    <IoKeyOutline />
+  ),
+
+
+  new Feature(
+    "Set a PIN",
+    "Set a PIN to secure your data",
+    <IoKeyOutline />
+  ),
+
 ];
 
 let otherFeatures = ["Import/Export data as a file"];
 
-let tags = ["File management", "SharedPreferences", "Provider", "Encryption"];
+let tags = ["SharedPreferences", "Provider", "Encryption","Caching"];
 
 new Project(
-  "3",
+  "2",
   "Accounts' Safe",
   "Saves user accounts",
-  "Store, protect, and access your accounts with ease. Encrypted storage, easy copy, password generation, and seamless import/export—all in one app. Stay secure, stay organized!",
+  "Store, protect, and access your accounts with ease. Encrypted storage, easy copy, password generation all in one app. Stay secure, stay organized!",
   "https://github.com/hazemxiii/protect_it",
   features,
   otherFeatures,
   tags,
   { android: "test.com", windows: "hi" },
-  {
-    "A major update is coming soon": "var(--light-blue)",
-  }
+  
 );

@@ -9,14 +9,16 @@ export default function SkillsSection() {
       content={
         <>
           <Skill name="Flutter/Dart"></Skill>
-          <Skill name="Android Development Background"></Skill>
-          <Skill name="State Management"></Skill>
-          <Skill name="Integration of REST APIs and third-party libraries"></Skill>
+          <Skill name="React"></Skill>
+          <Skill name="TypeScript"></Skill>
+          <Skill name="Python"></Skill>
+          <Skill name="MySQL"></Skill>
           <Skill name="Firebase"></Skill>
-          <Skill name="OOP/Design Patterns"></Skill>
-          <Skill name="SQL"></Skill>
+          <Skill name="MongoDB"></Skill>
           <Skill name="Git/GitHub"></Skill>
-          <Skill name="IoT Background"></Skill>
+          <Skill name="Integration of REST APIs and third-party libraries"></Skill>
+          <Skill name="State Management (Provider)"></Skill>
+          <Skill name="OOP/Design Patterns"></Skill>
         </>
       }
     />

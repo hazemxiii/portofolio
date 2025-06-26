@@ -1,7 +1,7 @@
 import { PiGithubLogoFill } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 
-export default function ProjectCard({ project, id, title, img, brief, tags }) {
+export default function ProjectCard({ project}) {
   const nav = useNavigate();
 
   return (
